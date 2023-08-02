@@ -1,5 +1,5 @@
 import React from 'react'
-import successIcon from 'src/images/icon-success.svg'
+import successIcon from '/src/images/icon-success.svg'
 
 export default function SuccessMessage({onClick, email}) {
   return (
