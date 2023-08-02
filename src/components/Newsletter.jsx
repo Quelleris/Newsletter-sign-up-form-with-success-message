@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import {imageDesktop} from '/src/images/illustration-sign-up-desktop.svg'
-import {imageMobile} from '/src/images/illustration-sign-up-mobile.svg'
+import imageDesktop from '/src/images/illustration-sign-up-desktop.svg'
+import imageMobile from '/src/images/illustration-sign-up-mobile.svg'
 
 function emailValidation(email) {
   var re = /\S+@\S+\.\S+/;
