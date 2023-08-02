@@ -12,8 +12,8 @@ export default function App() {
   }
 
   return (
-    <>
-    {subscribed ? <SuccessMessage email={email} onClick={() => setSubscribed(false)}/> : <Newsletter onSubmit={handleSubscribe}/>}
-    </>
+    <main>
+      {subscribed ? <SuccessMessage email={email} onClick={() => setSubscribed(false)}/> : <Newsletter onSubmit={handleSubscribe}/>}
+    </main>
   )
 }
