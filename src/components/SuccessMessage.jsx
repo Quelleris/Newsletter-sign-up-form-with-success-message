@@ -1,9 +1,10 @@
 import React from 'react'
+import successIcon from 'src/images/icon-success.svg'
 
 export default function SuccessMessage({onClick, email}) {
   return (
     <div className='success-message component'>
-        <img className='success-image' src="/src/images/icon-success.svg" alt=""/>
+        <img className='success-image' src={successIcon} alt=""/>
         <h2 className='newsletter-title'>Thanks for subscribing!</h2>
         <p className='newsletter-text'>
         A confirmation email has been sent to
