@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import {imageDesktop} from '/src/images/illustration-sign-up-desktop.svg'
+import {imageMobile} from '/src/images/illustration-sign-up-mobile.svg'
 
 function emailValidation(email) {
   var re = /\S+@\S+\.\S+/;
@@ -23,8 +25,8 @@ export default function Newsletter({onSubmit}) {
   return (
     <div className='newsletter component'>
       <picture className='image-container'>
-        <source media='(max-width: 849px)' srcSet='../src/images/illustration-sign-up-mobile.svg'/>
-        <img className="newsletter-image" src="../src/images/illustration-sign-up-desktop.svg" alt=""/>
+        <source media='(max-width: 849px)' srcSet={imageMobile}/>
+        <img className="newsletter-image" src={imageDesktop} alt=""/>
       </picture>
         <div className="newsletter-content">
         <h2 className='newsletter-title'>Stay updated!</h2>
