@@ -45,7 +45,7 @@ export default function Newsletter({onSubmit}) {
             </li>
         </ul>
           <form onSubmit={handleSubmit}>
-            <div className="flex">
+            <div className="input-label-container">
               <label htmlFor="email-input" className='email-label'>Email address</label>
               <p className="error-message">{error ? 'Valid email required' : ''}</p>
             </div>

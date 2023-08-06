@@ -33,26 +33,24 @@
 }
 
 img, 
-a, 
 button,
 span,
 input { display: block; }
 
-ul {
-  list-style: none;
-}
-
-input {
-  background: none;
-  border: none;
-  width: 100%;
-}
-
+input,
 button {
   background: none;
   border: none;
-  cursor: pointer;
+  width: 100%;
   font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
 }
 
 body {
@@ -66,7 +64,7 @@ body {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: var(--fw-bold);
   line-height: 1.1;
 }
@@ -77,7 +75,7 @@ h2 {
 }
 
 .newsletter {
-  max-width: 928px;
+  max-width: 58rem;
 }
 
 .newsletter-image {
@@ -86,17 +84,17 @@ h2 {
 }
 
 .newsletter-content {
-  padding: 24px 48px;
+  padding: 1.5rem 3rem;
 }
 
 .newsletter-title {
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 }
 
 .newsletter-text {
   line-height: 1.5;
   color: var(--clr-neutral-500);
-  margin-bottom: 26px;
+  margin-bottom: 1.625rem;
 }
 
 .success-message {
@@ -106,22 +104,22 @@ h2 {
   align-items: flex-start;
   flex-direction: column;
   background-color: var(--clr-neutral-100);
-  padding: 24px;
-  padding-top: 148px;
+  padding: 1.5rem;
+  padding-top: 9.25rem;
 }
 
 .success-image {
-  margin-bottom: 38px;
+  margin-bottom: 2.375rem;
 }
 
 .email {
-  margin-inline: 3px;
+  margin-inline: 0.1875rem;
 }
 
 .newsletter-list {
   list-style: url('../src/images/icon-list.svg');
-  margin-left: 24px;
-  margin-bottom: 36px;
+  margin-left: 1.5rem;
+  margin-bottom: 2.25rem;
 }
 
 .error {
@@ -130,18 +128,18 @@ h2 {
   color: #f1948a;
 }
 
-.flex {
+.input-label-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .newsletter-list-item {
-  margin-bottom: 14px;
+  margin-bottom: 0.875rem;
 }
 
 .error-message {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: var(--fw-bold);
   color:  #f1948a;
 }
@@ -151,8 +149,8 @@ h2 {
   background-color: var(--clr-neutral-700);
   color: var(--clr-neutral-100);
   padding-block: 1.125em;
-  border-radius: 0.5rem;
   margin-top: auto;
+  border-radius: 0.5rem;
 }
 
 .newsletter-btn:hover {
@@ -160,18 +158,17 @@ h2 {
 }
 
 .email-label {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: var(--fw-bold);
   color: var(--clr-neutral-500);
 }
 
 .email-input {
-  padding: 18px;
-  border-radius: 0.5rem;
-  margin-bottom: 24px;
-  margin-top: 10px;
+  padding: 1.125rem;
+  margin-bottom: 1.5rem;
+  margin-top: 0.625rem;
   border: 1px solid var(--clr-neutral-300);
-  font: inherit;
+  border-radius: 0.5rem;
 }
 
 @media (min-width: 850px) {
@@ -182,7 +179,7 @@ h2 {
 
   .newsletter {
     display: flex;
-    padding: 24px;
+    padding: 1.5rem;
   }
 
   .image-container {
@@ -196,21 +193,21 @@ h2 {
 
   .newsletter-content {
     flex: 1;
-    padding: 74px 36px;
+    padding: 4.625rem 2.25rem;
   }
 
   .success-message {
-    max-width: 506px;
+    max-width: 31.625rem;
     border-radius: 1.5rem;
-    padding: 64px;
-    padding-top: 48px;
+    padding: 4rem;
+    padding-top: 3rem;
   }
 
   h2 {
-    font-size: 50px;
+    font-size: 3.125rem;
   }
 
   .newsletter-text {
-    margin-bottom: 28px;
+    margin-bottom: 1.75rem;
   }
 }
